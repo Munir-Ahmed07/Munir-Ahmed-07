@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'ICBM SS-20';
+    src: url(../font-family/transfonter.org-20240406-065915/ICBMSS20.woff) format('woff2'),
+        url('../font-family/transfonter.org-20240406-065915/ICBMSS20.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ICBM SS-25';
+    src: url('../font-family/transfonter.org-20240406-065915/ICBMSS20.woff2') format('woff2'),
+        url('../font-family/transfonter.org-20240406-065915/ICBMSS25.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+input {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+summary {
+    list-style: none;
+}
+details {
+    list-style: unset;
+    text-decoration: unset;
+    margin: 0;
+}
+body {
+    background-color: #17146B;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+
+/* @media screen and (min-width:1440px) {
+    .gallery-image {
+        max-width: 368px !important;
+        min-width: 368px !important;
+        height: 368px !important;
+    }
+} */

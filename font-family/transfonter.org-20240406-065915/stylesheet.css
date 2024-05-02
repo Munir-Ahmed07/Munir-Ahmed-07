@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'ICBM SS-20';
+    src: url('ICBMSS20.woff2') format('woff2'),
+        url('ICBMSS20.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ICBM SS-25';
+    src: url('ICBMSS25.woff2') format('woff2'),
+        url('ICBMSS25.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
